@@ -1,0 +1,28 @@
+{
+  "name": "tts-japanese",
+  "version": "1.0.0",
+  "description": "tts japanese all syllabaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/icai/tts-japanese.git"
+  },
+  "keywords": [
+    "tts",
+    "japanese",
+    "syllabaries"
+  ],
+  "author": "Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icai/tts-japanese/issues"
+  },
+  "homepage": "https://github.com/icai/tts-japanese#readme",
+  "dependencies": {
+    "download": "^7.1.0",
+    "lodash.flattendeep": "^4.4.0"
+  }
+}

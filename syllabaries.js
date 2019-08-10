@@ -1,30 +1,4 @@
-# TTS-Japanese
-
-crawling tts Japanese syllabaries from nhk.
-
-## Setup 
-
-```
-
-node index.js
-
-```
-
-## Github API
-
-```
-
-https://raw.githubusercontent.com/icai/tts-japanese/master/dist/${item}.mp3
-
-
-```
-
-## Notice
-
-syllabary seed
-
-```javascript
-[[
+module.exports = [[
     ['a', 'i', 'u', 'e', 'o'],
     ['ka', 'ki', 'ku', 'ke', 'ko'],
     ['sa', 'shi', 'su', 'se', 'so'],
@@ -53,20 +27,4 @@ syllabary seed
     ['ja',  'ju',  'jo'],
     ['bya',  'byu',  'byo'],
     ['pya',  'pyu',  'pyo'],
-  ]]
-
-```
-
-
-
-Total voices: 101
-
-
-
-Voices Copyright nhk, only for research.
-
-
-
-## LICENSE
-
-Licensed under the MIT license.
+  ]];
